@@ -16,6 +16,8 @@ const playGame = (userID) => {
   //console.log("user choice: " + userChoice);
   if (compChoice === userChoice) {
     drawGame(compChoice, userChoice);
+    msgChange.innerText = `Match is Draw!!!😎🥳 ${userChoice} === ${compChoice}`;
+    msgChange.style.backgroundColor = "orange";
   } else {
     let winner = winGame(compChoice, userChoice);
     if (winner) {

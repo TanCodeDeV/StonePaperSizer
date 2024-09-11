@@ -22,11 +22,11 @@ h1 {
 }
 
 img {
-  height: 150px;
+  height: 135px;
   width: 150px;
   object-fit: fill;
   border: 3.5px solid black;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 .choice-container {
@@ -52,7 +52,7 @@ img {
 }
 
 .msg-container {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 #msg {
